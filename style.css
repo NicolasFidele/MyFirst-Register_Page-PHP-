@@ -1,0 +1,106 @@
+body { /* set properties of body for login and register page */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("background.png");
+    height: 100%;
+    width: 100%;
+    background-position:inherit;
+    background-size: cover;
+    position: absolute;
+}
+.index-body { /* set properties of body for index page */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("background.png");
+    height: 100%;
+    width: 100%;
+    background-position:inherit;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+hr { /* properties of horizontal rule found in index.php */
+    width: 20%; 
+}
+.password, .text, .email {  /* set properties of input fields for login and register page */
+    background: transparent;
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    background-color: #f2f2f2;
+}
+fieldset {    /* properties of fieldset in login and register page */
+    border: 0;
+}
+.login-form {   /* form properties in login.php */
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+}
+.register-form {   /* form properties in register.php */
+    width: 350px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: white;
+}
+label {    /*label properties in login and register page*/
+    font-weight: bold;
+    height: 45px;
+    position: left;
+    color: grey;
+}
+.radio {   /*radio button properties*/
+    display: inline;
+    width: 20px;  
+    position: left;
+}
+button {     /*register and login submit button properties*/
+    width: 240px;
+    margin-top: 25px;
+    font-weight: bold;
+    height: 45px;
+    background-color:rgba(39, 76, 189, 0.644);
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #666;
+}
+.link-style {   /*hyperlink properties in login and register page*/
+
+        background-color:green;
+        color: white;
+        text-decoration: none;
+        padding: 8px 20px;
+        box-shadow: 0 0 10px #666;
+        font-size: 15px;
+        border-radius: 20px;
+}
+p{   /*paragraph properties on all pages*/
+    color: midnightblue;
+} 
+header {  /*properties for header in index.php (ul, li and a below)*/
+    height: 60px;
+    background-color: transparent;
+}
+ul {
+    float: right;
+    position: relative;
+    right: 10%;
+}
+ul li {
+    display: inline;
+    list-style: none;
+} 
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0px 0px 0px 20px;
+} 
+
